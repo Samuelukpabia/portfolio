@@ -1,0 +1,32 @@
+.flyer{
+    background-color: white;
+    width: 170px;
+    height: 40px;
+    z-index: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+
+}
+.flyer img{
+    width: 20%;
+}
+.flyer p{
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    color: var(---textColor);
+}
+.flyer p span{
+    color: var(---mainColor);
+}
+
+
+@media only screen and (max-width: 450px){
+    .flyer{
+        transform: scale(0.8);
+    
+    }
+}

@@ -1,0 +1,263 @@
+.portfolio{
+    width: 100%;
+   position: relative;
+   overflow: hidden;
+   padding-top: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+
+    /* background-color: white; */
+}
+.portfolio h1{
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.portfolio h1 span{
+    color: var(---mainColor);
+}
+.container-port{
+   /* background-color: blue; */
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+   margin-bottom: 2rem;
+}
+.port{
+    background-color: white;
+    width: 27%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.port-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 30px;
+}
+.port-btn{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-left: 5px solid  rgb(131, 117, 119);
+    border: 5px solid transparent;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(104, 75, 75);
+    font-weight: bolder; 
+    padding: 5px 20px;
+    /* border-radius: 15px; */
+    outline: none;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.port-btn:active{
+    transform: scale(0.9);
+}
+.port-btn:hover{
+    border-left: 5px solid black;
+    color: black;
+    background-color: rgb(131, 117, 119);
+    transition: .5s;
+
+}
+.port-info>:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.port-info>:nth-child(1)>*{
+   padding: 0;
+   margin: 0; 
+}
+.port-info p{
+    font-size: 0.8rem;
+    color: var(---textColor);
+}
+.port-info .gitt{
+    cursor: pointer;
+    transition: .5s;
+    color: black;
+
+}
+.port-info .gitt:hover{
+    color: var(---mainColor);
+    transition: .5s;
+
+}
+
+.view-code{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    border-radius: 15px;
+    display: none;
+
+}
+.port-img:hover .view-code{
+    display: inline-flex;
+
+}
+.view-code>*{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+
+}
+.view-code>*:hover{
+    transform: scale(0.8);
+    transition: .5s;
+
+}
+
+
+
+.swiper-con{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-con h2{
+   font-size: 2rem;
+}
+.swiper-con span{
+    color: var(---mainColor);
+}
+
+/* swiper */
+.swiper-con .swiper{
+    overflow: hidden!important;
+    height: 60vh;
+   
+}
+
+.portfolio-slider{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.portfolio-slider .swiper-slide{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-con img{
+    width: 18rem;
+    filter: drop-shadow(-12px 1px 10px rgba(0,0,0.25));
+    border-radius: 15px;
+}
+
+/* blure */
+.blur2{
+    border-radius: 50%;
+    top: 10px;
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    background: rgb(226, 138, 152);
+    z-index: -9;
+    top: -12%;
+    left: -10%;
+    filter: blur(72px);
+}
+
+
+/* blure */
+.blur4{
+    border-radius: 50%;
+    top: 10px;
+    position: absolute;
+    width: 32rem;
+    height: 34rem;
+    background:rgb(235, 150, 164);
+    z-index: -9;
+    top: 5%;
+    left: 60%;
+    filter: blur(102px);
+}
+
+
+
+@media only screen and (max-width: 850px){
+    .container-port{
+        /* margin-bottom: 0rem; */
+     }
+    .port{
+        width: 37%;
+    }
+    
+    .swiper-con{
+        height: 45vh;
+    }
+    .swiper-con .swiper{
+        height: 40vh;    
+    }
+
+}
+
+
+@media only screen and (max-width: 450px){
+    .port{
+        width: 77%;
+    }
+    .swiper-con .swiper{
+        height: 20vh;
+       
+    }
+    
+    .swiper-con img{
+        width: 7rem;
+        
+    }
+    .portfolio h1{
+        font-size: 2.3rem;
+    }
+    .categories{
+        gap: 1rem;
+    }
+    .port-btn{
+        padding: 5px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 282px) {
+    .second-service{
+        gap: 27rem;
+        margin: 0px 30px;
+    }
+    .port{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
