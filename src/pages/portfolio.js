@@ -13,7 +13,7 @@ const allCategories = ['all', ...new Set(Datas.map((data)=> data.cat))];
 console.log(allCategories);
 
 function Portfolio() {
-  const transition = {duration: 2, type: 'spring'}
+  const transition = {duration: 1, type: 'spring'}
 
   const [portItems, setPortItems] = useState(Datas);
   const [categories, setCategories] = useState(allCategories);
@@ -55,8 +55,8 @@ function Portfolio() {
            
          
           return  <motion.div 
-          initial={{y: 50, opacity: 0.4}}
-            whileInView={{y: 10, opacity: 1}}
+          initial={{opacity: 0.4}}
+            whileInView={{opacity: 1}}
             transition={transition}
           key={key} className='port'>
                     <div className='port-img' 
@@ -97,8 +97,8 @@ function Portfolio() {
 
       <div className='swiper-con'>
         <motion.h2
-        initial={{y: 40, opacity: 0.2}}
-        whileInView={{y: 0, opacity: 1}}
+        initial={{scale: 0, opacity: 0}}
+        whileInView={{scale: 1, opacity: 1}}
         transition={transition}
         >Other Side <span>Projects</span></motion.h2>
       

@@ -204,6 +204,9 @@
 
 
 @media only screen and (max-width: 850px){
+    .blur2, .blur4{
+        display: none;
+    }
     .container-port{
         /* margin-bottom: 0rem; */
      }

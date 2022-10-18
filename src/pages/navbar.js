@@ -5,8 +5,7 @@ import {Link} from 'react-scroll'
 import socials from '../component/socials'
 import {motion} from 'framer-motion'
 
-import { FaHome, FaServicestack,  FaToolbox, FaPhone} from 'react-icons/fa'
-import {TbAntennaBars5, TbAntennaBarsOff} from 'react-icons/tb'
+import { FaHome, FaServicestack,  FaToolbox, FaPhone, FaTimes, FaBars} from 'react-icons/fa'
 import {BiNetworkChart} from 'react-icons/bi'
 
 
@@ -20,7 +19,7 @@ function Navbar() {
     setOpenlink(false)
   }
 
-  const transition = {duration: 2, type: 'spring'}
+  const transition = {duration: 1, type: 'spring'}
 
   return (
     <div className='navbar'>
@@ -61,14 +60,14 @@ function Navbar() {
             })}
           </div>  
 
-          <button className='menu-btn' onClick={toggleOn}><TbAntennaBars5/></button>
+          <button className='menu-btn' onClick={toggleOn}><FaBars/></button>
           
 
         </div>
 
         <div className='hidden-links' id={openlink ? 'open' : 'close'}>
             <div>
-            <button className='close-btn' onClick={toggleOff}><TbAntennaBarsOff/></button>
+            <button className='close-btn' onClick={toggleOff}><FaTimes/></button>
             </div>
 
             <div>

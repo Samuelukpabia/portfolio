@@ -16,7 +16,7 @@ import {Link} from 'react-scroll'
  
 
 function Home() {
-    const transition = {duration: 2, type: 'spring'}
+    const transition = {duration: 1, type: 'spring'}
 
   return (
     <div className='home' id='Home'>
@@ -76,14 +76,8 @@ function Home() {
 
         <div className='second-home'>
             <img src={Me}/>
-            <motion.div
-             initial={{y: 50, scale: 0, opacity: 0.4}}
-             whileInView={{y: 10, scale: 1, opacity: 1}}
-             transition={transition}></motion.div>
-            <motion.div
-             initial={{y: 50, scale: 0, opacity: 0.4}}
-             whileInView={{y: 10, scale: 1, opacity: 1}}
-             transition={transition}></motion.div>
+            <div></div>
+            <div></div>
             <motion.div
             initial={{left: '-20%', opacity: 0.4}}
             whileInView={{left: '-14%', opacity: 1}}

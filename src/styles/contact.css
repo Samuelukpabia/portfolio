@@ -128,6 +128,9 @@ textarea{
 
 
 @media only screen and (max-width: 850px){
+    .blur3{
+        display: none;
+    }
     .contact-content{
         display: flex;
         flex-direction: column;

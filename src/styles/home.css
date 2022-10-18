@@ -50,15 +50,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    top: 17rem;
+    top: 20rem;
     left: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
-    font-family: cursive;
     font-size: 0.9rem;
 }
 
 .occupation{
-    top: 20rem;
+    top: 24rem;
     left: 5%;
 }
 .occupation button{
@@ -108,8 +107,8 @@ a{
     top: 25%;
 }
 .second-home>:nth-child(2){
-    width: 350px;
-    height: 350px;
+    width: 370px;
+    height: 370px;
     background-color: var(---mainColor);
     border-radius: 50%;
     left: 0%;
@@ -117,8 +116,8 @@ a{
     z-index: -3;
 }
 .second-home>:nth-child(3){
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 430px;
     background-color: black;
     border-radius: 50%;
     top: 25%;
@@ -195,6 +194,9 @@ a{
 
 
 @media only screen and (max-width: 450px){
+    .blur1{
+        display: none;
+    }
    
     .first-home{
         transform: scale(.9);

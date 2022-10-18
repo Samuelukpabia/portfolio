@@ -10,7 +10,7 @@ import {FaNetworkWired} from 'react-icons/fa'
 
 
 function Skills() {
-  const transition = {duration: 2, type: 'spring'}
+  const transition = {duration: 1, type: 'spring'}
 
   return (
     <div className='skills' id='Skills'>

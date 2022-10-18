@@ -14,7 +14,7 @@ import { FormContext } from '../Helpers/context'
 function Contact() {
 
 
-  const transition = {duration: 2, type: 'spring'}
+  const transition = {duration: 1, type: 'spring'}
   const [send, setSend] = useState('send message')
   const [formInfo, setFormInfo] = useState('form')
 
@@ -22,8 +22,8 @@ function Contact() {
   return (
     <div className='contact' id='Contact'>
       <motion.div
-      initial={{y: 50, opacity: 0.4}}
-      whileInView={{y: 0, opacity: 1}}
+      initial={{scale: 0, opacity: 0.4}}
+      whileInView={{scale: 1, opacity: 1}}
       transition={transition}>
         <h1>Take A <span>Cup of Coffee</span></h1>
         <h1>& Chat With Me</h1>

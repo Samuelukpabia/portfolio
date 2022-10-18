@@ -9,13 +9,13 @@ import CV from '../Helpers/cv.pdf'
 
 
 function Services() {
-  const transition = {duration: 3, type: 'spring'}
+  const transition = {duration: 1, type: 'spring'}
 
   return (
     <div className='service' id='Services'>
         <motion.div 
-        initial={{y: 80, opacity: 0.2}}
-        whileInView={{y: 10, opacity: 1}}
+        initial={{scale: 0, opacity: 0.2}}
+        whileInView={{scale: 1, opacity: 1}}
         transition={transition}
         className='first-service'>
             <div className='awesome'>
@@ -34,8 +34,8 @@ function Services() {
 
         <div className='second-service'>
             <motion.div 
-            initial={{top: '15%', opacity: 0.4}}
-            whileInView={{top: '25%', opacity: 1}}
+            initial={{ opacity: 0.4}}
+            whileInView={{ opacity: 1}}
             transition={transition}
             style={{top: '30%', left: '60%'}}>
               <SFlyer img={Front} text1='Frontend Developer' text2='
@@ -46,8 +46,8 @@ function Services() {
               that solve complexd societal issues.'/>
             </motion.div>
             <motion.div 
-             initial={{left: '0%', opacity: 0.4}}
-             whileInView={{left: '15%', opacity: 1}}
+             initial={{ opacity: 0.4}}
+             whileInView={{ opacity: 1}}
              transition={transition}
             style={{top: '20%', left: '20%'}}>
               <SFlyer img={Mobile} text1='React Native Developer' text2='
