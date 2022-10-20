@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dc2bfd2c.css",
-    "main.js": "/portfolio/static/js/main.4f038f98.js",
+    "main.css": "/portfolio/static/css/main.cdb18452.css",
+    "main.js": "/portfolio/static/js/main.1feb21c9.js",
     "static/js/787.7d6d6079.chunk.js": "/portfolio/static/js/787.7d6d6079.chunk.js",
     "static/media/countDown.JPG": "/portfolio/static/media/countDown.0d0f10f3d01123e469da.JPG",
     "static/media/tourismWeb.JPG": "/portfolio/static/media/tourismWeb.54e8ef8651d06e937dcd.JPG",
@@ -13,6 +13,7 @@
     "static/media/sideBar.JPG": "/portfolio/static/media/sideBar.9ddc4c6c83bfa67d9f63.JPG",
     "static/media/multiply.JPG": "/portfolio/static/media/multiply.1858c1a4a27dcf2213b5.JPG",
     "static/media/me.PNG": "/portfolio/static/media/me.e90cbf23ce807dec2e69.PNG",
+    "static/media/portfolio.JPG": "/portfolio/static/media/portfolio.08caf77163af41e3c179.JPG",
     "static/media/iq.JPG": "/portfolio/static/media/iq.7111833195b224ab2409.JPG",
     "static/media/password.JPG": "/portfolio/static/media/password.7e4b7dfe1a754b56f596.JPG",
     "static/media/teacup.PNG": "/portfolio/static/media/teacup.7d322e3d0945b27c7188.PNG",
@@ -41,12 +42,12 @@
     "static/media/tailwind.PNG": "/portfolio/static/media/tailwind.aeb8bf45c3a8b31072d9.PNG",
     "static/media/java.PNG": "/portfolio/static/media/java.80d7c04323ff9924d4c1.PNG",
     "index.html": "/portfolio/index.html",
-    "main.dc2bfd2c.css.map": "/portfolio/static/css/main.dc2bfd2c.css.map",
-    "main.4f038f98.js.map": "/portfolio/static/js/main.4f038f98.js.map",
+    "main.cdb18452.css.map": "/portfolio/static/css/main.cdb18452.css.map",
+    "main.1feb21c9.js.map": "/portfolio/static/js/main.1feb21c9.js.map",
     "787.7d6d6079.chunk.js.map": "/portfolio/static/js/787.7d6d6079.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc2bfd2c.css",
-    "static/js/main.4f038f98.js"
+    "static/css/main.cdb18452.css",
+    "static/js/main.1feb21c9.js"
   ]
 }
