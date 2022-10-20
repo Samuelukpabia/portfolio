@@ -1,5 +1,6 @@
 import Forni from '../images/forniShopweb.JPG'
 import tourism from '../images/tourismWeb.JPG'
+import portfolio from '../images/portfolio.JPG'
 import IMG from '../images/jjjj.JPEG'
 
 
@@ -24,10 +25,12 @@ const data = [
     },
     {   
         id: 3,
-        img: IMG,
+        img: portfolio,
+        git: 'https://github.com/Samuelukpabia/portfolio',
+        view: 'https://samuelukpabia.github.io/portfolio/',
         cat: 'Web App',
-        title: 'gramfree',
-        desc: ''
+        title: 'Portfolio',
+        desc: 'My personal portfolio section that showcases my subsequent and resent works'
     },
     {
         id: 4,

@@ -59,11 +59,9 @@ function Navbar() {
               </motion.div>
             })}
           </div>  
-
-          <button className='menu-btn' onClick={toggleOn}><FaBars/></button>
-          
-
         </div>
+        
+        <button className='menu-btn' onClick={toggleOn}><FaBars/></button>
 
         <div className='hidden-links' id={openlink ? 'open' : 'close'}>
             <div>
