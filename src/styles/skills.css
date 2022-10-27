@@ -25,15 +25,13 @@
 }
 
 .skills-container{
-    flex: 50%;
-    /* background-color: red; */
+    flex: 30%;
     display: flex;
     justify-content: center;
     
 }
 .bbb{
-    /* background-color: yellow; */
-    width: 70%;
+    width: 100%;
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
@@ -68,34 +66,9 @@ height: 24%;
 }
 
 .experience{
-    flex: 50%;
-    padding: 20px;
-    /* background-color: green; */
-    /* margin-top: 20px; */
+    flex: 70%;
+    padding: 20px 20px 20px 0;
 }
-/* .exp{
-    display: flex;
-    gap: 2rem;
-    /* background-color: blue; 
-    margin-bottom: 10px;
-    width: 100%;
-}
-.exp>:nth-child(1){
-    width: 20%;
-    color: red;
-    padding: 0;
-    margin: 0;
-}
-.exp>:nth-child(2){
-    width: 80%;
-}
-.job-com>:nth-child(1) {
-    padding: 0;
-    margin: 0;
-}
-.job-com>:nth-child(2) {
-   font-size: 0.8rem;
-} */
 
 
 @media only screen and (max-width: 850px){
@@ -107,11 +80,14 @@ height: 24%;
     .bbb{
         height: 50vh;
         margin-bottom: 50px;
-
+        width: 70%;
     }
     .sss{
     width: 25%;
     height: 24%;
+    }
+    .experience{
+        padding: 20px;
     }
     
 }
@@ -146,6 +122,7 @@ height: 24%;
         width: 32%; 
         height: 24%;
     }
+   
 }
 
 

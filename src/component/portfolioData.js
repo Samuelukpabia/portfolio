@@ -10,7 +10,7 @@ const data = [
         img: Forni,
         git: 'https://github.com/Samuelukpabia/FuniShop',
         view: 'https://samuelukpabia.github.io/FuniShop/',
-        cat: 'Web App',
+        cat: 'React js',
         title: 'Forni.shop',
         desc: 'An interior exhibition platform that showcases beatiful interior futures'
     },
@@ -28,15 +28,15 @@ const data = [
         img: portfolio,
         git: 'https://github.com/Samuelukpabia/portfolio',
         view: 'https://samuelukpabia.github.io/portfolio/',
-        cat: 'Web App',
+        cat: 'React js',
         title: 'Portfolio',
         desc: 'My personal portfolio section that showcases my subsequent and resent works'
     },
     {
         id: 4,
         img: IMG,
-        cat: 'React js',
-        title: 'gramfree',
+        cat: 'Web App',
+        title: '',
         desc: ''
     },
 ]

@@ -84,6 +84,9 @@
         font-size: 2.3rem;
        
     }
+    .first-service img{
+        width: 25%;
+    } 
   
     .second-service{
         display: flex;
